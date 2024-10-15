@@ -1,0 +1,2108 @@
+/*
+-----------------------------------------------------
+NYT CSS file for /css/home/screen/general.css
+FileName: home.css
+Comments: Latest Version
+Revised by: Minnie Ko (move refer TimesSelect styles to home/screen/general.css)
+$Id: general.css,v 1.36 2006/04/19 22:26:42 minnie Exp $ 
+-----------------------------------------------------
+*/
+
+@import url(/web/20060428053438cs_/http://graphics8.nytimes.com/css/common/screen/general.css);
+
+
+
+/* Market Watch Module
+**********************/	   
+#marketWatchModule {
+	color: #666;
+	font: 86% Arial, sans-serif;
+	}
+	
+  
+
+/* Hides from IE-mac \*/
+* html #marketWatchModule {
+	height: 1%; 
+	}		
+	
+	
+#marketWatchModule img {
+  margin: 0 10px 10px 0;
+	}   
+#marketWatchModule #marketsStockQuoteSearchSubmit {
+  margin-top: 3px;
+	vertical-align: text-bottom;
+	} 
+
+#marketWatchModule a {           
+	display: block;
+	}
+
+
+ol {
+	padding-left: 0px;
+	margin-left: 26px;
+	_margin-left: 30px;
+	}
+
+
+/* General Float Cleaning*/
+.clearboth {
+	clear:both;
+	height: 10px;
+	}
+	
+	
+div#insideNYTimesHeader {
+	_height: 1%;
+	}	
+	
+	
+.story:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html .story {
+	height: 1%; 
+	}		
+	
+		
+/*Masthead */
+/*================================================*/
+
+
+
+
+div#shell.home div#page div#masthead {
+	min-height: 90px;
+	_height: 90px;
+	padding: 4px;
+	text-align: center;
+	}
+	
+div#shell.home div#page div#masthead img#NYTLogo ,
+div#shell.home div#page div#masthead div#date {
+	width: 379px;
+	}
+	
+div#shell.home div#page div#masthead div#date {
+	text-align: center;
+	margin: 4px auto 0px auto;
+	}
+	
+div#shell.home div#page div#masthead div#date span#lastUpdate {
+	font-family: Arial, sans-serif;
+	color: #999999;/*FIXXX*/
+	font-size: 90%;
+	margin-left: 1em;
+	}
+	
+#date .timestamp {
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+	}
+	
+div#shell.home div#page div#masthead div#homeAd1 ,
+div#shell.home div#page div#masthead div#homeAd2 {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+div#shell.home div#page div#masthead div#homeAd1 {
+	float: left;
+	}
+	
+div#shell.home div#page div#masthead div#homeAd2 {
+	float: right;
+	}
+
+/* </masthead> */
+
+/* <toolbar> */
+
+#welcomeuser {
+	color: #333333;
+	}
+
+.username {
+	color: #004276;
+	font-weight: bold;
+	}
+
+div#shell.home div#page div#toolbar {
+	padding: 4px 7px 4px 4px;
+	/*\*/vertical-align: top;/*\*/
+	min-height: 31px;
+	_height: 31px;
+	position: relative;
+	}
+	
+div#shell.home div#page div#toolbar div#homepageTools {
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 85%;
+	margin-top: 0px;
+	color: #333333;/*FIXXX*/
+	line-height: 30px;
+	}
+	
+div#shell.home div#page div#toolbar div#homepageTools a {
+	padding: 0px 4x;
+	}
+	
+div#shell.home div#page div#toolbar div#homepageTools img {
+	float: left;
+	margin-right: 4px;
+	}
+	
+div#shell.home div#page div#toolbar div#homepageTools a:first-child {
+	background: transparent url(/web/20060428053438im_/http://graphics8.nytimes.com/css/home/screen/general.css) no-repeat center left;/*FIXXX*/
+	}
+	
+div#shell.home div#page div#toolbar div#Middle1 ,
+div#shell.home div#page div#toolbar div#searchWidget ,
+div#shell.home div#page div#toolbar div#searchWidget input ,
+div#shell.home div#page div#toolbar div#searchWidget input#searchQuery 
+div#shell.home div#page div#toolbar div#searchWidget input#searchSubmit {
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+div#shell.home div#page div#toolbar div#Middle1 {
+	float: left;
+	margin-right: 10px;
+	}
+	
+div#shell.home div#page div#toolbar form#searchForm {
+	margin: 0px;
+	padding: 0px;
+	height: 10px;
+	}
+	
+div#shell.home div#page div#toolbar div#searchWidget {
+	display: block;
+	position: relative;
+	top: 5px;
+	left: 0px;
+	}
+	
+#searchWidget td {
+	padding-right: 5px;
+	padding-top: 5px;
+	}
+	
+div#shell.home div#page div#toolbar input#searchQuery {
+	width: 250px;
+	border: 1px solid #b2b2b2;
+	height: 16px;
+	font-size: 100%;
+	} 
+	
+div#shell.home div#page div#toolbar div#searchWidget div.customSelectContainer {
+	background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/homepage/searchSelect.gif) no-repeat top left;
+	_background: none;
+	height: 15px;/*19*/
+	width: 98px;/*102*/
+	_width: 300px;/*102*/
+	}
+	
+div#shell.home div#page div#toolbar form#searchForm select {
+	_margin-top: 1px;
+	width: 150px;
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+	}
+	
+div#shell.home div#page div#toolbar form#searchForm input#searchSubmit {
+	_margin-top: 1px;
+	}
+	
+/* </toolbar> */
+
+div#shell.home div#page div#main {
+	padding: 0 0 0 0;
+	position: relative;
+	overflow: visible;
+	_width: 970px;
+	min-width: 970px;
+	margin: 0 0 0 0;
+	}
+
+/* <navigation> */
+
+	div#shell.home div#page div#main #navigation {
+		width: 92px;
+		_width: 89px;
+		min-width: 91px;
+		max-width: 8.8em;
+		float: left;
+/*		border-right: 1px solid #999999;*/
+		height: auto;
+		overflow: visible;
+		z-index: 6000;
+		position: relative;
+		text-align: left;
+		border-bottom: none;
+
+	}
+	
+	div#shell.home div#page div#main #navigation li {
+		text-align: left;
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		display: block;
+		_width: 100%;
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs {
+	
+	}
+
+	div#shell.home div#page div#main #navigation ul.tabs * {
+		float: none;
+		height: auto;
+		min-height: 0px;
+		max-height: auto;
+		z-index: 6000;
+		position: static;
+		text-align: left;
+		border: none;
+		line-height: normal;
+		color: black;
+		white-space: wrap;
+		background: none;
+		min-width: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs li {
+		padding: 3px 0px 2px 4px;
+		float: none;
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs li ul {
+		white-space: normal;
+		display: none;
+	}
+
+	div#shell.home div#page div#main #navigation ul.tabs li#navArts ul ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navStyle ul {
+		display: block;
+		padding-bottom: 0px;
+		margin-bottom: -2px;
+		margin-left: 0px;
+		padding-left: 0px;
+		min-width: 0px;
+	}
+	
+	
+	div#shell.home div#page div#main #navigation ul.tabs li#navArts ul li ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navStyle ul li {
+		display: block;
+		min-width: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-right: 0px;
+		min-width: 90px;
+		max-width: 7.6em;
+	}
+
+	div#shell.home div#page div#main #navigation ul.tabs li#navArts ul li ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navStyle ul li ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navArts ul li a ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navStyle ul li a {
+		text-transform: none;
+		font-family: Arial, sans-serif;
+		margin: 0 0 0 0 !important;
+		padding: 0 0 0 0 !important;
+		white-space: normal;
+		min-width: 0px;
+		margin-bottom: 0 !important;
+		padding-bottom: 0 !important;
+		color: #666666;
+	}
+
+div#shell.home div#page div#main #navigation a {
+		display: block;
+		width: 100%;
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs {
+		border-left: 1px solid #999999 !important;
+	}
+	
+	
+	div#shell.home div#page div#main #navigation ul.tabs li#navJobs a ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navRealestate a ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navAutos a ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navJobs ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navRealestate ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navAutos {
+		background: #e6eff8;
+		font-family: Arial, sans-serif;
+		color: #333333;
+		font-weight: normal;
+		
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs li#navJobs ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navRealestate ,
+	div#shell.home div#page div#main #navigation ul.tabs li#navAutos {
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs li#navJobs {
+		padding-top: 4px;
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs li#navRealestate {
+	}
+	
+	div#shell.home div#page div#main #navigation ul.tabs li#navAutos {
+		padding-bottom: 4px;
+		border-bottom: 1px solid #D3D3D3;
+		margin-bottom: 4px;
+	}
+	
+	div#shell.home div#page div#main #navigation div.columnGroup {
+		margin: 4px 4px 4px 4px;
+		padding-top: 4px;
+		border-top: 1px solid #cccccc;
+	}
+	
+	div#shell.home div#page div#main td.td-navigation div.columnGroup ul, 
+	div#shell.home div#page div#main td.td-navigation .columnGroup ul li {
+		margin: 0 0 -4px 0 !important;
+		padding: 0 0 0 0 !important;
+		font-family: Arial, sans-serif;
+		font-size: 80%;
+		min-width: 0px;
+		max-width: 7.6em;
+		color: #666666;
+	}
+	
+	div#shell.home div#page div#main td.td-navigation div.columnGroup ul li a {
+		margin: 0 0 0 0 !important;
+		padding: 0 0 6px 0 !important;
+		color: #666666;
+		line-height: 1em;
+	}
+	
+	div#shell.home div#page div#main td.td-navigation div.columnGroup.advertisementColumnGroup {
+		margin: 4px 0 !important;
+		padding: 4px 0 0 0;
+		width: 92px;
+		_width: 89px;
+		text-align: center;
+	}
+	
+	/* div#shell.home div#page div#main #navigation div.columnGroup.advertisementColumnGroup * {
+		padding-left: 0px;
+		font-size: 95%;
+	} */
+	
+	/* div#shell.home div#page div#main #navigation div.columnGroup.advertisementColumnGroup img {
+		text-align: center;
+		_padding-left: 3px;
+		}
+	
+	div#shell.home div#page div#main #navigation div.columnGroup.advertisementColumnGroup h4 {
+		font-size: 85%;
+		margin-top: 4px;
+		color: #999999;
+		}
+	
+	div#shell.home div#page div#main #navigation div.columnGroup.advertisementColumnGroup div.textAdvertisement {
+		padding-left: 4px;
+		color: #004276;
+		}
+	
+	div#shell.home div#page div#main #navigation div.columnGroup.advertisementColumnGroup div.textAdvertisement a {
+		color: #004276;
+		}
+	
+	div#shell.home div#page div#main #navigation div.columnGroup.advertisementColumnGroup h4 {
+		font-size: 86% !important;
+		font-family: Arial, sans-serif !important;
+		margin-left: 4px;
+		}
+	
+	*/
+	
+/* </navigation> */
+
+	div#shell.home div#page div#main table#mainTable {
+		width: 874px;
+		_width: 970px;/*877? Changed from 874 March 2*/
+/*		margin-top: 7px;*/
+		position: relative;
+		left: -1px;
+		display: block;
+		_display: table;
+		_table-layout: fixed;
+		position: relative;
+		float: none;
+		/*\*/vertical-align: top;/*\*/
+
+		border-collapse: collapse;
+		border-left: none;
+		_height: 1%;
+		}
+	
+	div#shell.home div#page div#main table#mainTable:after {
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden;
+		}
+	
+	div#shell.home div#page div#main table#mainTable tr {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td {
+		padding: 0px;
+		/*\*/vertical-align: top;/*\*/
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.td-navigation {
+		border-right: 1px solid #CBCBCB;
+		_width: 93px;
+	}
+	
+	
+	div#shell.home div#page div#main table#mainTable td.td-navigation .columnGroup ul li {
+		padding-bottom: 0px;
+		}
+
+	div#shell.home div#page div#main table#mainTable td#abColumns {
+		/*	margin-top: 5px; */
+		margin-bottom: 0;
+		width: 512px;
+		_width: 517px;
+		padding: 0 4px 7px 10px !important;
+		_padding-right: 4px;
+		float: left;
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) repeat-y 352px top;
+		_background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) repeat-y 353px top;
+		/* background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) repeat-y 348px top; */
+		height: 1%;
+		}
+		
+		
+	div#shell.home div#page div#main table#mainTable td#abColumns:after {
+    	content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden;
+		} 	
+	
+	
+	div#shell div#page div#main div.story ul.refer {
+		margin: 0 !important;
+		padding: 0 !important;
+		}
+	
+	/* Added in refer fix for a Col */
+	
+	div#shell div#page div#main div.story ul.refer li, div#shell div#page div#main div.story ul.refer li.free {
+		font-size: 93%;
+		} 
+	
+	/* Added in refer fix for b Col */
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns #rightSpan div.bColumn div.columnGroup div.story ul.refer li.free {
+		font-size: 110%;
+		}
+	
+	/* START SUN CUT AND PASTE */
+	
+	
+	/*Added March 28*/
+	div#shell.home div#page div#main table#mainTable td#abColumns div.abColumnWrapper { 
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) repeat-y 342px top;
+		_background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) repeat-y 343px top;
+		_height: 1%;
+		margin-top: 0;
+		padding-top: 0;
+		}
+		
+	div#shell.home div#page div#main table#mainTable td#abColumns div.abColumnWrapper:after {
+		content: "."; 
+		display: block; 
+		height: 0; 
+		clear: both; 
+		visibility: hidden;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns.wideSpanBG {
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/backgrounds/whiteBG.gif) repeat;
+		_height: 1%;
+		}
+	
+	 div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanWrapper {
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) no-repeat;
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/backgrounds/whiteBG.gif) repeat;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div.breakingNewsAlert { 
+		/*background: transparent!important;*/
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/backgrounds/whiteBG.gif) repeat;
+		}
+	
+	div#shell div#page div#main #abColumns div.bColumn div.columnGroup {	/*,FIXXX: class names should not refer to style, ideally. this class is intended for multiclassing*/
+		padding-top: 10px;
+		padding-top: expression( this == this.parentNode.firstChild ? "0px" : "10px" );
+		margin-top: 0px;
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x left top; /* FIXXX: needs proper path */
+/*		background: expression( this == this.parentNode.firstChild ? "none" : "transparent url(/web/20060428053438im_/http://graphics8.nytimes.com/tools/design/images/aColumnHorizontalBorder.gif) repeat-x left top" );*/
+		}
+		
+	div#shell div#page div#main #abColumns #rightSpan div.bColumn div.columnGroup {	/*,FIXXX: class names should not refer to style, ideally. this class is intended for multiclassing*/
+		padding-top: 0px;
+		padding-top: expression( this == this.parentNode.firstChild ? "0px" : "0px" );
+		margin-top: 0;
+		background: none repeat-x left top; /* FIXXX: needs proper path */
+		background: expression( this == this.parentNode.firstChild ? "none" : "none" );
+		}
+	
+	div#shell div#page div#main #abColumns div.abColumnWrapper div.bColumn div.columnGroup {	/*,FIXXX: class names should not refer to style, ideally. this class is intended for multiclassing*/
+		padding-top: 10px !important;
+		margin-top: 0;
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x left top !important;
+		background: expression( this == this.parentNode.firstChild ? "transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x left top" : "transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x left top" );
+		padding-top: expression( this == this.parentNode.firstChild ? "10px" : "0px" );
+		margin-top: expression( this == this.parentNode.firstChild ? "0px" : "0px" );
+		}
+		
+	div#shell div#page div#main div.columnGroup h4 { 
+		text-transform: uppercase;
+		font-family: Georgia, serif;
+		font-size: 86%;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		}
+					
+	div#shell div#page div#main div.bColumn div.columnGroup h4 {
+		_padding-top:10px;
+		} 
+
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div.aColumn {
+		width: 337px;/*fixxx*/
+		_width: 337px;/*fixxx*/
+		border: none;
+		padding: 0px;
+		margin: 0px;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div.bColumn {
+		width: 163px;
+		_width: 163px;
+		border: none;
+		padding: 0 1px 0 4px;
+		_padding: 0 5px 0 0;
+		margin: 0px;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div.bColumn div.columnGroup h4 { 
+		text-transform: uppercase;
+		font-family: Arial;
+		font-size: 90%;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		font-weight: normal;
+		}
+	
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div.bColumn .story {
+		margin-bottom: 6px;
+		}
+		
+	/*Added March 1st Selectors for DefaultSpan, wideSpan or rightSpan*/
+	div#shell.home div#page div#main table#mainTable td#abColumns div.aColumn div.dynamicWidgetColumnGroup { 
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x top left;
+		clear: both;
+		_height: 1%;
+		padding-top: 10px;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div.aColumn div.dynamicWidgetColumnGroup h4 {
+		padding-top:12px;
+		_padding-top:12px;
+		margin: 12px 0 !important;
+		color: black;
+		text-transform: uppercase;
+		font-weight:bold;
+		font-size: 100%; /*85% small: 85% */
+		float: left;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div#wideSpan div.aColumn {
+		width: 158px;
+		border: none;
+		padding: 0 5px 0 0;
+		_padding: 3px 5px 0 0;
+		margin: 0 0 0 0;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div#wideSpan div.bColumn {
+		width: 337px;/*fixxx*/
+		_width: 337px;/*fixxx*/
+		border: none;
+		padding: 0px;
+		margin: 0px;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div#wideSpan { 
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x bottom left;
+		padding-bottom: 1px;
+		margin-bottom:12px;
+		_margin-bottom:4px;
+		clear: both;
+		margin-right: 0px;
+		padding-right: 0;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanBelowWideSpan,
+	div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpan { 
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) repeat-y 168px top;
+		_background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/verticalBorder.gif) repeat-y 167px top;
+		/* _padding-top:5px; */
+		_height: 1%;
+		margin-bottom: 12px;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanBelowWideSpan div.aColumn ,
+	div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpan div.aColumn {
+		width: 163px;
+		border: none;
+		padding: 4px 0 0 0;
+		_padding: 5px 0 0 0;
+		margin: 0 0 0 0;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanBelowWideSpan div.aColumn {
+			padding-top:0;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanBelowWideSpan div.bColumn,
+	div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpan div.bColumn {
+		width: 337px;/*fixxx*/
+		border: none;
+		padding-left: 5px;
+		padding-right: 2px;
+		_padding-right: 3px;
+		/* margin-left: 5px; */
+		}
+
+	/* END SUN CUT AND PASTE */
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn {
+		padding: 0 0 0 5px;
+		margin: 0px;
+		float: none;
+		border-left:1px solid #CCCCCC;
+		width: 337px;
+		}
+		
+	div#shell.home div#page div#main table#mainTable td.cColumn div.columnGroup {
+		border: none;
+		margin-bottom: 12px;
+		padding-bottom: 0px;
+		margin-top: 0;
+		padding-top: 0;
+		}
+		
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.columnGroup div.tabContent ol {
+		_margin-left: 20px;
+		}
+	
+	
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.columnGroup.homeMediumAdGroup {
+		text-align: center;
+		clear: both;
+		background: #efefef;
+		padding: 0 0 0 0;
+		margin: 10px 0 10px 0;
+		}
+		
+		
+	div#shell.home div#page div#main table#mainTable td.cColumn div.columnGroup#adxBigAd {
+		text-align: center;
+		padding: 10px 0 0 0;
+		_padding: 10px 0 0 0;
+		margin: 0 0 0 0;
+		_margin: 5px 0 0 0;
+		border-top: 1px solid #e2e2e2;
+		width: 337px;
+		}	
+		
+	
+	#HPMiddle {
+		clear: both;
+		padding-top: 12px;
+		border-top: 1px solid #e2e2e2;
+		margin-bottom: 12px;
+		}
+	
+	#HPMiddle-rightspan {
+		clear: both;
+		padding-top: 5px;
+		border-top: 1px solid #e2e2e2;
+		margin-bottom: 12px;
+		}
+	
+	div#shell.home div#page div#main div.customSelectContainer#travelDestinationSelect {
+		background-image: url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/homepage/customSelect_142.gif);
+		_background-image: none;
+		width: 139px;
+		float: left;
+		}
+		
+		
+	div#shell.home div#page div#main div.customSelectContainer#travelDestinationSelect h5 {
+		text-transform: uppercase;
+		font-family: Arial;
+		font-size: 86%;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		font-weight: normal;
+		}
+		
+	div#shell.home div#page div#main div.customSelectContainer#travelDestinationSelect #showtimesAndTicketsSearch {
+		text-transform: uppercase;
+		font-family: Arial;
+		margin-bottom: 15px;
+		}
+	
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn {
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB {
+		width: 163px;
+		_width: 164px;
+		border-style: solid;
+		border-color: #e2e2e2; 
+		border-width: 0px;
+		margin-bottom: 10px;
+		_margin-bottom: 0;
+		_padding-bottom: 0;
+		padding-top: 5px;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA {
+		clear: both;
+		border-right-width: 1px;
+		padding-right: 4px;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA .callout {
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB {
+		border-left-width: 1px;
+		padding-left: 4px;
+		clear: right;
+		_width: 164px;
+		float: left;
+		position: relative;
+		left: -1px;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA h4,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB h4 {
+		margin: 0 0 5px 0;
+		padding: 0 0 0 0;
+		}
+	
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA .story h5,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB .story h5 {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-size: 90%;
+		line-height: 1.1em;
+		}
+	
+	/* div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB .refer {
+		font-family: Georgia, serif;
+		font-size: 100%;
+		} */
+		
+
+	/* Added Feb 28 */
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns img.imageXML {
+		padding-bottom:6px;
+		}
+		
+		
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns {
+		margin-top: 0px;
+	}
+	
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.listing div.columnGroup {
+		border-top: 1px solid #cccccc;
+		padding-top: 12px;
+		margin: 12px 7px 0px 0px;
+	}
+	
+	div#shell div#page div#main .cColumn div.columnGroup {
+		margin-bottom: 15px;
+	}
+	
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.listing div.centered {
+		text-align:center;
+	}
+
+	/* section header links in well  */
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.listing ul li h4 a {
+		color:#000000;
+		font-weight: normal;
+		}
+
+	
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.listing div.columnGroup div.subColumnA,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.listing div.columnGroup div.subColumnB,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn div.columnGroup div.subColumnA,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn div.columnGroup div.subColumnB,
+	/* */
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn div.subColumnB ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn div.subColumnA ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn div.subColumnB ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA div.subColumnA ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA div.subColumnB ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB div.subColumnA ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB div.subColumnB {	
+		width: 49%;
+		padding: 0px;
+		position: static;
+		border: none;
+	}
+	
+	/* Added Feb 28 */
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.listing div.columnGroup div.subColumnA ul,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.listing div.columnGroup div.subColumnB ul,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn div.columnGroup div.subColumnA ul,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn div.columnGroup div.subColumnB ul,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnA ul,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnB ul,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnC ul,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnD ul,
+	/* */
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn ul ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA ul ,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB ul {
+		margin: 0px;
+		font-size: 90%;
+		font-family: Arial, sans-serif;
+		list-style: none;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA ul li {
+		list-style: none;
+		padding-left: 5px;
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/misc/bullet4x4.gif) no-repeat 0px 5px;
+	}
+	
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td {
+	}
+	
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup ul li {
+		/* this should have some kind of bottom margin */
+	}
+	
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnA h5,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnB h5,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnC h5,	
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnD h5,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn h5,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA h5,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB h5 {
+		font-family: Arial, sans-serif;
+		font-size: 90%;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		color: #333333;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	
+	.section-more {
+		margin: 5px 0 0 0;
+		text-transform: uppercase;
+		color: #333333;
+		display: block;
+		font-weight: normal;
+		font-family: Arial, sans-serif;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.story {
+		margin: 0 0 5px 0;
+		padding: 0 0 0 0;
+	}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn div.story h5,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA div.story h5,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB div.story h5  {
+		font-size: 100%;
+		line-height: 1.2em;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-family: Georgia, serif;
+		text-transform: none;
+		font-weight: bold;
+	}
+	
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumn div.story .summary,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnA div.story .summary,
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB div.story .summary {
+		font-size: 100%;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		}
+	
+	/* Fixed Wed Refers on Opinion */
+	
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB div.story .refer.opinion li {
+		margin-bottom: 4px;
+		}
+	
+	div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB div.story .refer.opinion li a, div#shell.home div#page div#main table#mainTable td.cColumn div.subColumnB div.story .refer.opinion li.free a {
+	 	font-family: Georgia, serif;
+		font-size: 110%;
+		}
+	
+/* top stories */
+	div#shell div#page div#main div.aColumn div.story#topStory,
+	div#shell div#page div#main div.aColumn div.story#topStoryVertical,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailA,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailB,
+	div#shell div#page div#main div.aColumn div.story#topStoryHorizontal,
+	div#shell div#page div#main div.abColumn div.story#topStorySuperwide,
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA,
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedB {
+		margin-top: 0px;
+	}
+
+	div#shell div#page div#main div.aColumn div.story#topStory h1,
+	div#shell div#page div#main div.aColumn div.story#topStory h2,
+	div#shell div#page div#main div.aColumn div.story#topStory h3,
+	div#shell div#page div#main div.aColumn div.story#topStory h4,
+	div#shell div#page div#main div.aColumn div.story#topStoryVertical h1,
+	div#shell div#page div#main div.aColumn div.story#topStoryVertical h2,
+	div#shell div#page div#main div.aColumn div.story#topStoryVertical h3,
+	div#shell div#page div#main div.aColumn div.story#topStoryVertical h4,
+	div#shell div#page div#main div.aColumn div.story#topStoryVertical h5,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailA h1,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailA h2 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailA h3 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailA h4 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailA h5 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailB h1 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailB h2 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailB h3 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailB h4 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailB h5 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryHorizontal h1 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryHorizontal h2 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryHorizontal h3 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryHorizontal h4 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryHorizontal h5 ,
+	div#shell div#page div#main div.abColumn div.story#topStorySuperwide h1 ,
+	div#shell div#page div#main div.abColumn div.story#topStorySuperwide h2 ,
+	div#shell div#page div#main div.abColumn div.story#topStorySuperwide h3 ,
+	div#shell div#page div#main div.abColumn div.story#topStorySuperwide h4 ,
+	div#shell div#page div#main div.abColumn div.story#topStorySuperwide h5 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA h1 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA h2 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA h3 ,
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA h4 ,
+	/*Added March 1 */
+	div#shell div#page div#main td#abColumns div#wideSpan div.abColumn h4,
+	div#shell div#page div#main td#abColumns div#rightSpan div.aColumn h4,
+	/**/
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA h5 {
+		font-size: 175%; /*150% small: 175% */
+		margin-bottom: 6px;
+		text-transform: none;
+		font-family: inherit;
+		font-weight: bold;
+		}
+		
+	/* UPDATED HEALINE STYLE - JAMES */
+	div#shell div#page div#main div.aColumn div.story h5 a {
+		font-size: 125%;
+		font-weight: bold;
+		}
+		
+	.kicker, .kicker a {
+		color: black;
+		text-transform: uppercase;
+		font-family: Arial, sans-serif;
+		font-size: 100%;
+		line-height: 1.3em;
+		}
+	
+	div#shell div#page div#main div.aColumn div.story#topStory p.summary ,
+	div#shell div#page div#main div.aColumn div.story#topStoryVertical p.summary ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailA p.summary ,
+	div#shell div#page div#main div.aColumn div.story#topStoryThumbnailB p.summary ,
+	div#shell div#page div#main div.aColumn div.story#topStoryHorizontal p.summary ,
+	div#shell div#page div#main div.abColumn div.story#topStorySuperwide p.summary ,
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA p.summary {
+		font-size: 120%; /*105% small: 120% */
+		line-height: 1.2em;
+		margin-bottom: 2px;
+		}
+		
+	
+/* top story w/ image in B column */
+
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedA {
+		padding-top: 0;
+		_padding-top: 0;
+		margin-bottom: 10px;
+		_height: 1%;
+	}
+	
+	div#shell div#page div#main div.aColumn div.story#topStoryContinuedB {
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x bottom left;
+		padding-top: 5px;
+		_padding-top: 7px;
+		_height: 1%;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	
+	
+	
+	div#shell div#page div#main div.bColumn div.story#topStoryContinuedB .story {
+		padding-botom: 0;
+		margin-bottom: 0;
+		}
+		
+		
+	div#shell div#page div#main div.bColumn div.story#topStoryContinuedB .story .summary {
+		font-family: Arial, Helvetica, sans-serif;
+        font-size: 90%;
+        font-weight: normal;
+		color: #333;
+		}
+	
+	
+	div#shell div#page div#main div.bColumn div.story#topStoryContinuedB div.callout {
+		float: none;
+		margin-left: 1px;
+		/* border-bottom: 1px solid #e2e2e2; */
+		margin-top: 0;
+		padding-top: 5px;
+		_padding-top: 0px;
+		_margin-top: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		_margin-right: 2px;
+	}
+	
+	
+	div#shell div#page div#main div.bColumn div.story#topStoryContinuedB div.callout img {
+		margin-top: 0;
+		padding-top: 0;
+		}
+	
+	div#shell div#page div#main div.bColumn div.story#topStoryContinuedB div.callout .credit {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		}
+	
+	div#shell div#page div#main td#abColumns div#wideSpan div.callout {
+		margin-right: 0 !important; /* joseph */
+		}
+	
+	
+	
+	/* Added March 1st*/
+	div#shell div#page div#main div#wideSpan div.bColumn div.story#topStoryContinuedB div.callout { 
+		border-bottom: 0px solid #FFFFFF;
+		}
+	
+	div#shell div#page div#main div#WideSpan div.bColumn div.story#topStoryContinuedB div.callout { 
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x bottom left;
+		clear: both;
+		}
+		
+	div#shell div#page div#main div.bColumn div.story#topStoryContinuedB div.callout h5 {
+		font-size: 120%;
+		font-weight: bold;
+		padding-bottom: 0;
+		margin-bottom: 0;
+		}
+	
+	div#shell div#page div#main div#rightSpan div.bColumn div.story#rank3 {
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x bottom left;
+		padding-bottom: 16px;
+		clear: both;	
+		margin-top: 0;
+		padding-top: 0;
+		}
+	
+	div#shell div#page div#main div#rightSpan div.bColumn div.story#rank3 h5 {
+		line-height: 1.2em;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		}
+
+	/**/
+	
+	div#shell div#page div#main h4 {
+		margin-bottom: 6px;
+		}
+	
+	div#shell div#page div#main div#apr h4 a {
+		color:#000000;
+		}	
+
+	div#shell div#page div#main div#apr .story {
+		margin-bottom: 0;
+		padding-bottom: 0;
+		_margin-bottom: -6px;
+		_padding-bottom: -6px;
+		}
+		
+	div#shell div#page div#main div#apr h5 a {
+		font-size: 100%;
+		line-height: 1.2em;
+		font-weight: normal !important;
+		margin-bottom: 0;
+		padding-bottom: 0
+		}
+
+	div#shell div#page div#main div#apr div.byline {
+		margin-bottom: 0;
+		padding-bottom: 0
+		}
+	
+	
+	div#shell div#page div#main div#belowFold {
+	background: #f2f4f3;
+	background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/belowFoldBg.gif) repeat-y 0px 0px;
+	padding: 7px 0px 7px 0px;
+	}
+	
+	
+	div#shell div#page div#main div#belowFold:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html div#shell div#page div#main div#belowFold {
+	height: 1%; 
+	}	
+	
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable {
+		width: 973px;
+		_width: 968px;
+		display: block;
+		_display: table;
+		border-collapse: collapse;
+		/*\*/vertical-align: top;/*\*/
+		background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/belowFoldBg.gif) repeat-y 0px 0px;
+		}
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable td {
+		/*\*/vertical-align: top;/*\*/
+		}
+	
+	
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable td#adBar {
+		width: 88px;
+		_width: 82px;
+		padding-left: 5px;
+		padding-right: 4px;
+		border-left: none;
+		float: left;	
+		height: 100%;
+		}
+		
+	div#shell div#page div#main div#belowFold table#belowFoldTable td#adBar font {
+		font-family: Arial, sans-serif;
+		font-size: 10px;
+		}	
+
+
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing {
+		border-left: 1px solid #E2E2E2;
+		width: 186px;
+		_width: 572px;
+		padding: 0px 5px;
+		padding-left: expression( this == this.parentNode.firstChild ? "10px" : "5px" );
+		width: expression( this == this.parentNode.firstChild ? "186px" : "184px" );
+		border-left-width: expression( this == this.parentNode.firstChild ? "0px" : "1px" );
+		}
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing.first {
+		border-left: none;
+		width: 186px;
+		_width: 572px;
+		padding: 0px 5px;
+		padding-left: expression( this == this.parentNode.firstChild ? "10px" : "5px" );
+		width: expression( this == this.parentNode.firstChild ? "186px" : "184px" );
+		}
+	
+	
+	
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing ul {
+		margin-left: 2px;
+		margin-right: 5px;
+		}
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing ul ul {
+		margin-left: 0;
+	/*	background-image: url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/misc/bullet4x4.gif);
+		background-repeat: no-repeat;
+		background-position: left top;*/	
+		}
+		
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing ul ul li {
+		padding: 0;
+		margin-bottom: 12px;
+		padding-bottom: 12px;
+		}
+	
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing:first-child {
+		padding-left: 10px;
+		width: 163px;
+		border-left: none;
+		}
+
+	
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing ul,
+	div#shell div#page div#main div#belowFold table#belowFoldTable td.listing ul li {
+		list-style: none;
+		padding-bottom: 6px;
+		}
+		
+	
+	table#belowFoldTable td ul li ul li {
+		margin-bottom: 10px; /*FIXXX*/
+		margin: 0 !important;
+		padding: 0 0 10px 8px !important;
+		background-image: url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/misc/bullet4x4.gif) ;
+		background-position: 0 4px !important;
+		_background-position: 0 7px !important;
+		background-repeat: no-repeat !important;
+		font-size: 100%;
+		}
+		
+
+	
+	table#belowFoldTable td ul h4 {
+		margin: 0 0 10px 0;
+		padding: 0 0 0 8px !important;
+		font-family: Arial, sans-serif;
+		/*font-weight: normal;*/ /*  These REALLY NEED TO BE BOLD so they stand out. Post-razorfishmockup, they blend into the links list */
+		font-size: 90%;
+		text-transform: uppercase;
+		}
+	
+	div#shell div#page div#main div#belowFold /*table#belowFoldTable td*/#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails ,
+	div#shell div#page div#main div#belowFold /*table#belowFoldTable td*/#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li, div#shell div#page div#main div#belowFold /*table#belowFoldTable td*/#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li a {
+		width: auto;
+		float: none;
+		margin: 0px;
+		padding: 0px;
+		position: static;
+		height: auto;
+		color: #808080;
+		}
+	
+	div#shell div#page div#main div#belowFold /*table#belowFoldTable td*/#adBar div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li { 
+		margin-bottom: 13px;
+		}
+	
+	div#shell div#page div#main table#belowFoldTable td.cColumn {
+		border-left: 1px solid #E2E2E2;
+		padding-left: 5px;
+		height: 100%;
+		}
+		
+	
+/* MOST POPULAR MODULE HOMEPAGE */		
+/* *********************************************************/	
+
+		
+td.cColumn div.columnGroup  ul.tabs {
+	font-size: 86%; /* 9px */
+	/*	_line-height: 1em;*/
+	_position: absolute;
+	top: 0px;
+	}
+					
+td.cColumn div.columnGroup  ul.tabs li {
+	position: relative;
+	top: 0px; 
+	padding-left: 5px;
+	padding-right: 5px;
+	_padding-bottom: 2px;
+	}
+		
+td.cColumn div.columnGroup  ul.tabs li.selected {	
+	_padding-bottom: 3px;
+	}	
+				
+td.cColumn div.columnGroup  ul.tabs li:first-child {
+	border-left-width: 1px;
+	}
+					
+td.cColumn div.columnGroup  ul.tabs li a {
+	color: #333333;
+	}
+
+/* *********************************************************/	
+/* MOST POPULAR MODULE HOMEPAGE ENDS */		
+	
+					
+
+div#shell div#page div#main div.columnGroup div.columnGroupTools {
+	float: right;
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+	}
+			
+	
+	table#belowFoldTable td.listing div.columnGroup div.subColumnA ul il,
+	table#belowFoldTable td.listing div.columnGroup div.subColumnB ul il {
+		margin-bottom: 2px;
+		}
+	
+	/*Added and moved from common/general March 1*/
+	/*ADDED Feb 28*/
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn div.columnGroup div.subColumnA h5,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn div.columnGroup div.subColumnB h5,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnA h5,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnB h5,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnC h5,
+	div#shell.home div#page div#main div#belowFold table#belowFoldTable td.cColumn table.fourColumns tr.columnGroup td.subColumnD h5 {
+		font-weight: normal;
+		margin: 0px 0px 7px 0px;
+		padding: 0px;
+		color: black;
+		text-transform: uppercase;
+		font-family: Arial, sans-serif;
+		font-size: 85%;
+		display: block;
+		}
+
+	/*Added March 1st*/
+	div#shell div#page div#main td#abColumns div#rightSpan div.aColumn h3 ,
+	div#shell div#page div#main td#abColumns div#wideSpan div.abColumn h3 {
+		font-size: 165%; /*150% small: 175% */
+		text-transform: none;
+		font-weight: bold;
+		line-height: 1.1em;
+		margin: 0 0 5px 0;
+		_padding: 5px 0 0 0;
+		padding: 0 0 0 0;
+		font-family: Georgia, serif;
+		}
+	
+	
+		
+	
+	div#shell div#page div#main div#WideSpan div.aColumn div.story h5,
+	div#shell div#page div#main div#rightSpan div.aColumn div.story h5 {
+		font-size: 100%;
+		}
+		
+	
+	
+	div#shell div#page div#main div.aColumn div.story h5,
+	div#shell div#page div#main div.bColumn div.story h5 {
+		font-size: 100%;
+		line-height: 1.4em;
+		margin-bottom: 2px;
+		}
+	
+	div#shell div#page div#main div.aColumn div.story .byline,
+	div#shell div#page div#main div.bColumn div.story .byline {
+		color: #808080;
+		}
+		
+
+	#main {
+		background: transparent!important;
+		}
+	
+	#morevideo {
+		float: right;
+		margin-top: 11px;
+		font-size: 10px;
+		font-family: sans-serif;
+		}
+	
+	#most-emailed {
+		margin-left: 25px;
+		}
+	
+	
+/* Paus B Column Editorial Promos March 28 */
+	
+	
+.bColumn .columnGroup:after {
+    content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html .bColumn .columnGroup .tabContent {
+	height: 1%; 
+	}
+/* End hide from IE-mac */	
+
+
+/* .bColumn .columnGroup h4 {
+        font-family: Georgia, Times, sans-serif !important;
+        font-weight:bold !important;
+        font-size:100% !important;
+        color:#333333!important;
+        margin-bottom:4px !important;
+		clear:both;                        
+        } */
+
+.bColumn .columnGroup h6 {
+        clear:both;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-size:90% !important;
+        font-weight:normal;
+        text-transform:uppercase;
+        color:#000000!important;
+        margin-top:0px !important;         
+        margin-bottom:3px !important;         
+        }
+
+.bColumn .columnGroup ul.refer {
+        font-family:Arial, Helvetica, sans-serif !important;
+        font-size:85%;
+        }
+
+.bColumn .columnGroup .subColumnA {
+        width:55% !important;
+        margin-bottom:8px !important;
+        }
+
+.bColumn .columnGroup .subColumnB {
+        width:45% !important;
+        margin-bottom:8px !important;
+        }
+
+.bColumn .columnGroup ul.storyHeadlines {
+        margin-left:12px;
+        }
+
+.bColumn .columnGroup ul.storyHeadlines h5 {
+        font-size:100%;
+        font-weight:normal;
+        margin:0;
+        }
+
+.bColumn .columnGroup ul h5 a.select {
+        background: url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/section/timesselect/ts_icon.gif) no-repeat 16px top;
+        padding-left: 16px;
+        min-height: 13px;
+        _height: 13px;
+        display: block;
+        text-indent: 16px;
+        margin-left: -16px;
+        position: relative;
+        _left: -16px;
+        _margin-left: 0px;
+        margin-left: -28px; /*FIXXX: this is to hide the bullet, maybe there's a better way. Fails in safari*/
+        }
+
+a.select:hover {
+        text-decoration: underline;
+        }
+
+a.select:first-line {
+        line-height: 140%;
+        }
+
+
+/*Showtimes And Tickets*/
+
+#showtimesAndTicketsSearch label {
+		text-transform: uppercase;
+		font-family: Arial;
+		font-size: 90%;
+        margin-top: 30px !important;
+       	margin-bottom: 5px;
+        clear: both;
+        }
+
+#showtimesAndTicketsSearchTextInput {
+        width: 140px;
+        clear: both;
+        margin-top: 3px !important;
+        border: 1px solid #ccc;
+        /*\*/vertical-align: top;/*\*/
+		display: inline;
+		font-size: 90%;
+		line-height: 1.3em;
+        }
+		
+#showtimesAndTicketsSearchTextInput {
+        width: 140px;
+        clear: both;
+        margin-top: 3px !important;
+        border: 1px solid #ccc;
+        vertical-align: top;
+		display: inline;
+		font-size: 90%;
+		line-height: 1.3em;
+        }		
+		
+
+#showtimesAndTicketsSubmit {
+        margin-top: 3px !important;
+        /*\*/vertical-align: top; /*\*/
+		display: inline;
+        }
+		
+		
+/* 
+classifieds tabbed module
+Author: Pau Santesmasses
+revision date: 2006.03.30	
+revision details: reworked #jobMarket ad
+*/
+/* ============================================= */		
+
+
+h5 span.audio,
+h5 span.graphic,
+h5 span.interactive,
+h5 span.photo,
+h5 span.slideShow,
+h5 span.trailer,
+h5 span.video {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 95%;
+        text-transform: uppercase;
+        padding-left: 15px;
+        background-repeat: no-repeat;
+    }
+		
+		
+#classifiedsWidget .tabContent {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom:0 !important;
+    }
+
+
+		
+#classifiedsWidget .tabContent .summary {
+    line-height:110% !important;
+    margin-bottom:6px !important;
+    }
+
+#classifiedsWidget #allClassifieds .kicker,
+#classifiedsWidget #allClassifieds .refer  {
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+    }
+
+#classifiedsWidget .story {
+    margin-bottom:12px !important;
+} 
+
+#classifiedsWidget .callout {
+    margin-left:12px !important;
+} 
+
+
+#classifiedsWidget .editColumn .kicker,
+#classifiedsWidget .editColumn .refer,
+#classifiedsWidget .searchColumn .kicker, 
+#classifiedsWidget .searchColumn .refer  {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    }
+
+#classifiedsWidget .story .refer {
+        font-size:inherit;
+        }    
+
+#classifiedsWidget .refer {
+        font-family:Arial, Helvetica, sans-serif !important;
+        font-size:85%;
+        }
+
+#classifiedsWidget .tabContent:after {
+    content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html #classifiedsWidget .tabContent {
+	height: 1%; 
+	}
+/* End hide from IE-mac */	
+
+#classifiedsWidget .tabContent .subColumns {
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+    }
+
+#classifiedsWidget .tabContent .subColumnA,
+#classifiedsWidget .tabContent .editColumn {
+    width:173px;
+    float:left;
+    display:inline;
+    margin-left:6px !important;
+    margin-right:6px !important;
+    border:none !important;
+    }
+
+#classifiedsWidget .tabContent .subColumnB,
+#classifiedsWidget .tabContent .searchColumn {
+    width:134px !important;
+    float:left;
+    display:inline;
+    margin-left:6px !important;
+    margin-right:6px !important;  
+    border:none !important; 
+    }
+
+* html #classifiedsWidget .tabContent .subColumnB {
+    margin-left:0px !important;
+    }
+
+#classifiedsWidget .tabContent .story h5 {
+    font-size:100% !important;
+    }
+
+#classifiedsWidget .tabContent .kicker {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size:90%;
+    text-transform:uppercase;
+    margin:0 0 2px 0 !important;
+    clear:left;
+    }
+
+#classifiedsWidget .tabContent .subColumnA ul, 
+#classifiedsWidget .tabContent .subColumnB ul {
+    margin:0 0 0px 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:90%;
+    line-height:140%;
+
+    }
+
+
+#classifiedsWidget .tabContent .subColumnA li, 
+#classifiedsWidget .tabContent .subColumnB li {
+    background:none !important;
+padding-left:2px !important;
+    }
+
+
+#classifiedsWidget .tabContent .subheader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    display: block;
+    margin-top: -3px !important;
+    margin-bottom: 7px;
+    }
+
+#classifiedsWidget .tabContent .refer {
+    margin-bottom: 10px;
+    clear: both;
+    }
+        
+#classifiedsWidget .tabContent .searchForm {
+    float: left;
+    display: inline;
+    width: 134px !important;
+    margin: 0 0 12px 0 !important;
+    }
+
+#classifiedsWidget .tabContent .searchForm input#searchQuery {
+    width:128px;
+    margin-bottom:4px;
+    }
+
+#classifiedsWidget .tabContent .searchForm input#searchSubmit {
+    float:left;
+    display:inline;
+    clear:none !important;
+    }
+
+#classifiedsWidget .tabContent .searchForm .more {
+    float:right;
+    display:inline;
+    margin-top:5px;
+    font-size:.8em !important;
+    }
+
+
+/*Ads and announcements in classifieds*/
+
+#classifiedsWidget .tabContent .announcement {
+    width:305px !important;
+    height:auto !important;
+    padding:7px !important;
+    margin: 4px 7px 7px 7px !important;
+    background-color:#EFEFEF !important;
+    }
+
+#classifiedsWidget .tabContent .announcement p.summary {
+    margin: 0px !important;
+    }
+
+#classifiedsWidget .tabContent .announcement .callout {
+    width:120px;
+    height:60px;
+    margin-bottom:0px !important;
+    /*border:1px solid #ccc;*/
+    overflow:hidden;
+    border:none;
+    /*overflow:visible;*/
+    }
+
+#classifiedsWidget .tabContent .advertisement {
+    clear:both;
+    width:318px;
+    padding:7px 0 0 !important;
+    margin:0 7px 7px 7px !important;
+    border-top: 1px solid #ccc;    
+}
+
+
+
+#jobMarket .advertisement .kicker,
+#jobMarket .advertisement .summary,
+#jobMarket .advertisement .refer {
+    float:right !important;
+    clear:none !important;
+    width:172px !important;
+    }
+
+#classifiedsWidget .tabContent .advertisement .callout {
+    float:left !important;
+    display:inline;
+    width:171px;
+    height:96px;
+    border:1px solid #ccc;
+    overflow:hidden;
+    margin-left:0px !important;
+    margin-right:13px;
+    }
+
+#classifiedsWidget .tabContent .story.advertisement h5, 
+#classifiedsWidget .tabContent .story.announcement h5 {
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size:90%!important;
+    margin-bottom:0px !important;
+    line-height:120%!important;
+    }
+
+#classifiedsWidget .tabContent .story.advertisement h5,
+#classifiedsWidget .tabContent .story.advertisement p.summary {
+    display:block;
+    }
+
+#classifiedsWidget .tabContent .story.advertisement p.summary, 
+#classifiedsWidget .tabContent .story.announcement p.summary {
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size:90%!important;
+    line-height:120%!important;
+    margin-bottom:6px !important;
+    color:#000 !important;
+    letter-spacing:-0.01em;
+    word-spacing:-0.15em;
+    }
+
+#classifiedsWidget .tabContent .advertisement .adCreative {
+    float:left !important;
+    } 
+
+#classifiedsWidget .tabContent .searchColumn #moduleAd {
+    clear:both;
+    margin: 0px 0px 0px 0px !important;
+    border:none;
+    text-align:center;
+    }
+
+#jobMarket .adCreative {
+    float:left !important;
+    width:120px !important;
+    height:60px !important;
+    padding: 7px !important;
+    margin:0 6px 0 0px;
+    background:#EFEFEF;
+    overflow:hidden;
+    }
+
+#classifiedsWidget .tabContent .searchColumn .adCreative {
+    width:120px !important;
+    height:60px !important;
+    float:none !important;
+    background: #EFEFEF;
+    padding:7px;
+    text-align:center;
+    overflow:hidden;
+    }
+
+#classifiedsWidget .tabContent .searchColumn .adCreative img {
+    text-align:center;
+    float:none !important;
+    margin:0;
+    padding:0;
+    }
+	
+/* ad tag fixes */
+
+.columnGroup td h5 {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 90%;
+	font-wieght: normal;
+	}
+	
+
+	
+	
+/* Mulitmedia Player Styles */
+/*========================================================== */
+
+
+#multiPlayer {
+	padding-top: -5px
+	}
+	
+#multiPlayer:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html #multiPlayer {
+	height: 1%; 
+	}	
+	
+	
+/* Ad FONT FIX */
+
+font {
+	font-size: 90%;
+	}	
+	
+	
+/* Market Watch Module
+**********************/	   
+#marketWatchModule {
+	color: #666;
+	font: 85% Arial, sans-serif;
+	}
+	
+#marketWatchModule img {
+  	margin: 0 10px 10px 0;
+	}
+	
+#marketWatchModule #marketsStockQuoteSearchSubmit {
+  	margin-top: 3px;
+	vertical-align: text-bottom;
+	} 
+	
+	
+#marketWatchModule a {
+  	font-size: 85%;            
+	display: block;
+	}
+
+/*	added style fixes for 377 photo template
+-------------------------------------------------------------------------------*/
+div#shell div#page div#main td.wideSpan div#wideSpan .aColumn li.free {
+	font-size: 93%;
+	}
+
+div#shell div#page div#main td.wideSpan .bColumn .columnGroup .story li.free {
+	font-size: 110%;
+	}
+
+/* delete lines 670-678 later */
+div#shell.home div#page div#main table#mainTable td#abColumns div#wideSpan {
+	background: transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x bottom left;
+	padding-bottom: 1px;
+	margin-bottom:12px;
+	clear: both;
+	margin-right: 1px;
+	padding-right: 0;
+	_height:1%;
+	_margin-right:10px;
+	}
+
+div#shell.home div#page div#main table#mainTable td#abColumns div#wideSpan .abColumn h4{
+	margin-top:0px;
+	margin-bottom:4px;
+	padding-top:5px;
+	}
+
+div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanWrapper .breakingNewsAlert {
+	margin-bottom:0;
+	/*padding-bottom:3px;*/
+	}
+
+div#shell.home div#page div#main table#mainTable td#abColumns div#wideSpan div.aColumn p.summary {
+	margin-top:4px; /* space between byline and main summary paragraph */
+	margin-bottom:5px;
+	color:#333;
+}
+
+div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanWrapper .breakingNewsAlert .timestamp {
+	font-family: Arial, sans-serif;
+	font-size: 90%;
+}
+
+div#shell div#page div#main  table#mainTable td#abColumns div.byline {
+		color: #808080;
+		font-family: Arial, sans-serif;
+		font-size: 86%;
+	}
+	
+div#shell div#page div#main td#abColumns div#wideSpan div.bColumn div#topStoryContinuedB .summary {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: normal;
+	color: #333;
+	}
+
+
+/*	added style fixes for 163 photo template
+-------------------------------------------------------------------------------*/
+div#shell.home div#page div#main table#mainTable td#abColumns div.bColumn div.columnGroup div.story ul.refer li.free{
+		font-size: 110%;
+		}
+
+div#shell div#page div#main div.story div.callout div.calloutTools a.enlargeTool {
+		padding: 0 0 5px 16px;
+		}
+
+/*	the following creates the double rule below the lede story for 163 photo layout homepage
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  */
+div#shell.home div#page div#main table#mainTable td#abColumns div.bColumn div.callout {
+	background:transparent url(https://web.archive.org/web/20060428053438im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x bottom left;
+	padding-bottom:12px;
+	}
+
+/* the following resets div.callout background back to NONE, since the only distinguishing factor between
+the 163 layout is  div#rightSpan selector for main homepage layout, and 
+		   div#rightSpanWrapper for 377 layout
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  */
+div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpan div.bColumn div.callout,
+div#shell.home div#page div#main table#mainTable td#abColumns div#rightSpanWrapper div.abColumn div.callout{
+	background:none;
+	padding-bottom:0;
+	}
+	
+div#shell div#page div#main div.bColumn div.story#topStoryContinuedB p.summary {
+		font-family: Arial, Helvetica, sans-serif;
+		}	
+
+/* match margin-top:12px for abColumns #rightSpanWrapper in line 559 */		
+div#shell.home div#page div#main table#mainTable td.cColumn div#edPromo {
+		padding-top: 5px; 
+	} 
+	
+/*	top spacing for abColumns - MAIN LAYOUT
+-------------------------------------------------------------------------------*/	
+#rightSpan .bColumn #topStoryContinuedB {
+padding-top: 7px;
+}
+*html #rightSpan .bColumn #topStoryContinuedB {
+padding-top: 12px;
+}
+div#shell div#page div#main #abColumns #rightSpanWrapper #rightSpan div.aColumn h3{
+padding-top:2px;
+}
+
+/*	top spacing for abColumns - 163 Layout
+-------------------------------------------------------------------------------*/	
+.bColumn .callout .calloutTools {
+padding-top: 5px;
+}
+
+*html .bColumn .callout .calloutTools {
+padding-top: 12px;
+}
+
+div#shell div#page div#main #abColumns #rightSpanWrapper #topStoryContinuedA h4{
+padding-top:7px;
+}
+
+/* increase size of li.select refer in homepage bColumn
+-----------------------------------------------------------------------*/
+div#shell div#page div#main div.bColumn div.story ul.refer li.select {
+	font-size: 105%;
+	} 
+
+
+/*
+     FILE ARCHIVED ON 05:34:38 Apr 28, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:48:27 Oct 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.759
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.011
+  esindex: 0.008
+  cdx.remote: 12.084
+  LoadShardBlock: 85.997 (3)
+  PetaboxLoader3.datanode: 77.891 (4)
+  load_resource: 91.603
+  PetaboxLoader3.resolve: 58.673
+*/

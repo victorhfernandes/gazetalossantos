@@ -1,0 +1,199 @@
+/* <insideNYTimes> */
+
+div#shell div#page div#main div#insideNYTimes {
+    background: transparent url(https://web.archive.org/web/20060523033259im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x bottom left;
+    padding-bottom: 4px;
+    clear: both;
+    }
+
+div#shell div#page div#main div#insideNYTimes div#insideNYTimesHeader {
+    clear: both;
+    background: transparent url(https://web.archive.org/web/20060523033259im_/http://graphics8.nytimes.com/images/global/borders/aColumnHorizontalBorder.gif) repeat-x 0px 0px;
+    border-bottom: 1px solid #D3D3D3; 
+    display: block;
+    padding: 0px 10px;
+    }
+    
+div#insideNYTimes div#insideNYTimesHeader #mothNavButtons {        
+    float: right;
+    margin-top:7px
+    }
+
+div#shell div#page div#main div#insideNYTimes div#insideNYTimesHeader h4 {
+    font-family:Georgia, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin: 0px;
+    font-size: 100%;
+    padding: 11px 0px 6px 0px;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 970px;
+    position: static;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td , 
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th {
+    border: 0px solid #D3D3D3; /*FIXXX*/
+    border-left-width: 1px;
+    /*width: 16.5%;FIXXX*/
+    text-align: left;
+    /*\*/vertical-align: top;/*\*/
+    width: 160px !important;
+    padding:0 !important;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story {
+    width:151px;
+    padding: 0 5px !important;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story h5 {
+    font-size: 100%;
+    font-weight:normal;
+    margin-top: 5px;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story a.select {
+    position: static;
+    text-indent: 0px;
+    padding-left: 23px;
+    padding-bottom:1px;
+    margin-left: 0px;
+    background-position: 0px 2px;
+    background-image: url(https://web.archive.org/web/20060523033259im_/http://graphics8.nytimes.com/images/section/timesselect/ts_icon.gif) !important;
+    background-repeat: no-repeat;
+    display: block;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story a.select:first-line {
+    font-size: inherit;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 90%;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th h4 {
+    margin: 15px 5px 10px !important;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    height: 1.2em;
+    font-size: 100%;
+    width:140px !important;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th h4 a {
+    padding: 0px;
+    color:#000000;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th h4.select {
+    color: transparent;
+    padding-top: 1.2em;
+    height: 0px;
+    overflow: hidden;
+    background: transparent url(https://web.archive.org/web/20060523033259im_/http://graphics8.nytimes.com/images/headers/timesselect_header92x11.gif) no-repeat left;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td , 
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th {
+    border-left-width: expression( this == this.parentNode.firstChild ? "0px" : "1px" );
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td:first-child , 
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser th:first-child {
+    border-left-width: 0px;
+    }
+
+div#shell div#page div#main div#insideNYTimes table#insideNYTimesBrowser td div.story div.callout {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    }
+    
+
+	
+/* </insideNYTimes> */
+
+
+
+/* <abColumn insideNYTimes> */
+.abColumn div#insideNYTimes {
+margin-bottom:12px;
+}
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser {
+    float:left;
+    }
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser td,
+.abColumn div#insideNYTimes table#insideNYTimesBrowser th {
+   width:160px!important;
+   padding:0;
+   border-left-width: 1px !important;
+   border-right-width: 1px !important;
+   }
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser {
+    width:480px !important;
+    }
+
+.abColumn div#insideNYTimes div.leftPanel,
+.abColumn div#insideNYTimes div.rightPanel {
+    width:58px;
+    float:left;
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:100px;
+    height:30px;
+    }
+
+.abColumn div#insideNYTimes table#insideNYTimesBrowser td div.story {
+    width:151px;
+    }
+
+.abColumn div#insideNYTimes:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}   
+
+/* Hides from IE-mac \*/
+* html .abColumn div#insideNYTimes {
+	height: 1%; 
+	}
+/* End hide from IE-mac */
+	    
+/* </abColumn insideNYTimes> */
+
+
+/*
+     FILE ARCHIVED ON 03:32:59 May 23, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:43:52 Oct 15, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.417
+  exclusion.robots: 0.013
+  exclusion.robots.policy: 0.007
+  esindex: 0.009
+  cdx.remote: 6.861
+  LoadShardBlock: 82.068 (3)
+  PetaboxLoader3.datanode: 66.401 (4)
+  PetaboxLoader3.resolve: 83.998 (2)
+  load_resource: 70.041
+*/
